@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>App Building2</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+  <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+  <div class="container-fluid position-relative d-flex justify-content-between align-items-center">
+    
+    <div class="navbar-left-group">
+      <a class="navbar-brand me-0" href="#">
+        <img src="https://bup.edu.bd/public/upload/department/20241204_1733291382.png" class="navbar-logo" alt="Logo">
+      <h1 class="h4 mb-0 text-white align-items-center">Foreign Language Center</h1>  
+      </a>
+    </div>
+
+    <div class="navbar-center-group d-none d-lg-block">
+      <ul class="navbar-nav flex-row justify-content-center">
+        <li class="nav-item px-2"><a class="nav-link" href="#home">Home</a></li>
+        <li class="nav-item px-2"><a class="nav-link" href="#introduction">Intro</a></li>
+        <li class="nav-item px-2"><a class="nav-link" href="#featured">Featured</a></li>
+        <li class="nav-item px-2"><a class="nav-link" href="#categories">Categories</a></li>
+        <li class="nav-item px-2"><a class="nav-link" href="#resources">Resources</a></li>
+      </ul>
+    </div>
+
+    <div class="navbar-right-group d-flex align-items-center gap-3">
+      <ul class="navbar-nav flex-row d-none d-lg-flex align-items-center gap-3 mb-0">
+        <li class="nav-item">
+          <a class="nav-link search-icon-btn py-0" href="#" aria-label="Search">
+            <i class="bi bi-search"></i>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="btn btn-primary login-btn" href="#">Login</a>
+        </li>
+      </ul>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#sidebarMenu" aria-controls="sidebarMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+
+  </div>
+</nav>
+
+<div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="sidebarMenu" aria-labelledby="sidebarMenuLabel">
+  <div class="offcanvas-header border-bottom border-secondary">
+    <h5 class="offcanvas-title" id="sidebarMenuLabel">Side Menu</h5>
+    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <ul class="nav flex-column gap-2 d-lg-none">
+      <li class="nav-item"><a class="nav-link text-white" href="#home">Home</a></li>
+      <li class="nav-item"><a class="nav-link text-white" href="#introduction">Intro</a></li>
+      <li class="nav-item"><a class="nav-link text-white" href="#featured">Features</a></li>
+      <li class="nav-item"><a class="nav-link text-white" href="#categories">Categories</a></li>
+      <li class="nav-item"><a class="nav-link text-white" href="#resources">Resources</a></li>
+    </ul>
+    </div>
+  </div>
+</div>
+
+<section id="home">
+  <div class="container">
+    <div class="row justify-content-center align-items-center py-5 my-5">
+      
+      <div class="col-md-3 text-center" id="hero-arrow">
+        <img src="https://jeyranmain.com/wp-content/uploads/2019/12/screen-shot-2019-12-15-at-9.32.34-am-e1576420408320.png?w=640" class="rounded hero-arrow-img img-fluid" alt="books">
+      </div>  
+      
+      <div class="col-md-7" id="introduction">
+      <div class="hero-text-card">
+        <h1 class="mb-0 text-white"><b>Master Your Foreign Language Skills</b></h1>
+        <h3 class="text-light-gold mt-1">¡Hola! Bonjour 你好 (Nǐ hǎo) こんにちは (Konnichiwa) </h3>
+
+        <div id="introduction" class="mt-3 text-white-50">
+        <p class="text-white-50 mt-3">Mastering a foreign language requires consistent, daily immersion and the willingness to practice speaking, even when you make mistakes. True fluency goes beyond memorizing vocabulary words, demanding that you dive deeply into the culture, idioms, and natural speech rhythms of native speakers. Over time, this dedicated effort shifts your brain from translating words in your head to effortlessly thinking and feeling in your new language.</p>
+        </div>
+    
+    <div class="d-flex flex-wrap gap-3 mt-4">
+      <a href="#" class="btn btn-success btn-lg hero-btn-shop">Get Started</a>
+      <a href="#" class="btn btn-outline-light btn-lg hero-btn-orders">View Demo</a>
+    </div>
+  </div>
+</div>
+
+    </div>                                    
+  </div>
+</section>
+
+<section id="introduction" class="container my-5">
+  <h2 class="text-center mb-4 text-black">Learn at Your Own Pace</h2>
+  <p class="text-black mt-3">Mastering a foreign language requires consistent, daily immersion and the willingness to practice speaking, even when you make mistakes. True fluency goes beyond memorizing vocabulary words, demanding that you dive deeply into the culture, idioms, and natural speech rhythms of native speakers. Over time, this dedicated effort shifts your brain from translating words in your head to effortlessly thinking and feeling in your new language.</p>
+
+    <div class="row justify-content-center g-4">
+
+    <div class="col-12 col-md-4 d-flex">
+      <div class="card h-100 product-card text-center p-4 border-0 w-100" style="background-color: #f8fafc; border-radius: 16px;">
+        <div class="d-flex justify-content-center mb-3">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw2S_cRrJC_gav-XA2vuORh0fE18pBCb1uug&s" class="card-img-fixed" alt="time" style="width: 48px; height: 48px; object-fit: contain;">
+        </div>
+        <div class="card-body d-flex flex-column justify-content-between p-0">
+          <div>
+            <h3 class="card-title h5 fw-bold" style="color: #0f172a;">Flexible Schedule</h3>
+            <p class="card-description text-muted small mb-0" style="color: #64748b;">Access content 24/7 from any device across the globe.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-md-4 d-flex">
+      <div class="card h-100 product-card text-center p-4 border-0 w-100" style="background-color: #f8fafc; border-radius: 16px;">
+        <div class="d-flex justify-content-center mb-3">
+          <img src="https://www.shutterstock.com/image-vector/expert-icon-business-person-skill-260nw-2248823033.jpg" class="card-img-fixed" alt="expert" style="width: 48px; height: 48px; object-fit: contain;">
+        </div>
+        <div class="card-body d-flex flex-column justify-content-between p-0">
+          <div>
+            <h3 class="card-title h5 fw-bold" style="color: #0f172a;">Expert-led</h3>
+            <p class="card-description text-muted small mb-0" style="color: #64748b;">Learn from industry veterans with years of practical experience.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-md-4 d-flex">
+      <div class="card h-100 product-card text-center p-4 border-0 w-100" style="background-color: #f8fafc; border-radius: 16px;">
+        <div class="d-flex justify-content-center mb-3">
+          <img src="https://www.clipartmax.com/png/middle/274-2745935_certificate-diploma-vector-certificate-icon-png.png" class="card-img-fixed" alt="industry" style="width: 48px; height: 48px; object-fit: contain;">
+        </div>
+        <div class="card-body d-flex flex-column justify-content-between p-0">
+          <div>
+            <h3 class="card-title h5 fw-bold" style="color: #0f172a;">Industry Certified</h3>
+            <p class="card-description text-muted small mb-0" style="color: #64748b;">Earn recognized certificates to boost your professional portfolio.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>      
+</section>
+
+<section id="featured" class="container my-5">
+  <h2 class="text-start mb-4 text-black">Browse By Language</h2>
+  <p class="text-black mt-3">Explore our most popular learning languages</p>
+
+  <div id="categories" class="row justify-content-center g-4">
+
+    <div class="col-12 col-md-6 col-lg-3 d-flex justify-content-center">
+      <div class="card h-100 product-card w-100">
+        <img src="https://thumbs.dreamstime.com/b/vector-illustration-japanese-language-national-flag-japan-two-hand-drawn-doodle-speech-bubbles-written-name-109521191.jpg" class="card-img-top card-img-fixed" alt="japanese">
+        <div class="card-body d-flex flex-column justify-content-between">
+          <div>
+            <h5 class="card-title">Japanese Language</h5>
+            <p class="card-text text-muted">Master Hiragana, Katakana, and essential Kanji while diving deep into rich cultural nuances and modern conversation patterns.</p>
+          </div>
+          <a href="#" class="btn btn-success mt-3">Read More</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-md-6 col-lg-3 d-flex justify-content-center">
+      <div class="card h-100 product-card w-100">
+        <img src="https://static.vecteezy.com/system/resources/previews/009/775/062/non_2x/korean-words-hello-translate-in-korean-with-flag-illustration-vector.jpg" class="card-img-top card-img-fixed" alt="korean">
+        <div class="card-body d-flex flex-column justify-content-between">
+          <div>
+            <h5 class="card-title">Korean Language</h5>
+            <p class="card-text text-muted">Learn to read Hangul effortlessly and build confident speaking skills tailored for K-drama fans, travelers, and professionals.</p>
+          </div>
+          <a href="#" class="btn btn-success mt-3">Read More</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-md-6 col-lg-3 d-flex justify-content-center">
+      <div class="card h-100 product-card w-100">
+        <img src="https://www.shutterstock.com/image-vector/english-icon-vectoreditable-strokelinear-style-260nw-2401494165.jpg" class="card-img-top card-img-fixed" alt="English">
+        <div class="card-body d-flex flex-column justify-content-between">
+          <div>
+            <h5 class="card-title">English Language</h5>
+            <p class="card-text text-muted">Enhance your global communication edge by refining your grammar, expanding your vocabulary, and boosting business speech clarity.</p>
+          </div>
+          <a href="#" class="btn btn-success mt-3">Read More</a>
+        </div>
+      </div>
+    </div>
+  </div> 
+</section>
+
+<section id="categories-section" class="container my-5">
+  <h2 class="text-center mb-4 text-black">Learning Levels</h2>
+    
+  <div id="resources" class="row justify-content-center g-4">
+
+    <div class="col-12 col-md-6 col-lg-3 d-flex justify-content-center">
+      <div class="card h-100 product-card">
+        <img src="https://www.shutterstock.com/image-vector/beginner-level-concept-icon-language-260nw-1927598756.jpg" class="card-img-top card-img-fixed" alt="alphabet">
+        <div class="card-body d-flex flex-column justify-content-between">
+          <div>
+            <h5 class="card-title">Beginner</h5>
+            <p class="card-text text-muted">Learning the Alphabet</p>
+          </div>
+          <a href="#" class="btn btn-success mt-3">View Resource</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-md-6 col-lg-3 d-flex justify-content-center">
+      <div class="card h-100 product-card">
+        <img src="https://cdn-icons-png.flaticon.com/512/5332/5332505.png" class="card-img-top card-img-fixed" alt="word">
+        <div class="card-body d-flex flex-column justify-content-between">
+          <div>
+            <h5 class="card-title">Advanced</h5>
+            <p class="card-text text-muted">Creating a word</p>
+          </div>
+          <a href="#" class="btn btn-success mt-3">View Resource</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-md-6 col-lg-3 d-flex justify-content-center">
+      <div class="card h-100 product-card">
+        <img src="https://cdn-icons-png.magnific.com/256/3131/3131621.png?semt=ais_white_label" class="card-img-top card-img-fixed" alt="sentence">
+        <div class="card-body d-flex flex-column justify-content-between">
+          <div>
+            <h5 class="card-title">Intermediate</h5>
+            <p class="card-text text-muted">Build a Sentence</p>
+          </div>
+          <a href="#" class="btn btn-success mt-3">View Resource</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-md-6 col-lg-3 d-flex justify-content-center">
+      <div class="card h-100 product-card">
+        <img src="https://cdn-icons-png.flaticon.com/512/953/953810.png" class="card-img-top card-img-fixed "alt="conversation">
+        <div class="card-body d-flex flex-column justify-content-between">
+          <div>
+            <h5 class="card-title">Professional</h5>
+            <p class="card-text text-muted">Real-life Conversation</p>
+          </div>
+          <a href="#" class="btn btn-success mt-3">View Resource</a>
+        </div>
+      </div>
+    </div>
+  </div> 
+</section>
+
+<section id="resources" class="container py-5">
+
+  <!-- Mission Statement Section -->
+  <div id ="mission" class="row justify-content-center mb-5">
+    <div class="col-md-10 text-center text-black">
+      <h3 class="fw-bold mb-3">Our Mission</h3>
+      <p class="lead fs-5 lh-base mx-auto" style="max-width: 800px;">
+        We bridge worlds through words. Our mission is to break down cultural and linguistic barriers, providing accessible, high-quality foreign language resources that empower global communication, foster mutual understanding, and connect learners and professionals worldwide.
+      </p>
+      <hr class="w-25 mx-auto border-white border-2 opacity-75 mt-4">
+    </div>
+  </div>
+
+   <h2 class="text-center mt-3 mb-5 text-black">Contacts</h2>
+
+  <div id="contact" class="row justify-content-center align-items-stretch my-5 g-4">
+    <!-- Map -->
+    <div class="col-md-5 d-flex flex-column">
+      <div class="ratio ratio-4x3 shadow rounded overflow-hidden border border-2 border-white h-100">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2529.422282537867!2d120.35089902756451!3d16.07136882908666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33916998f3385671%3A0x9fd7fc41e2246132!2sGrandiaGo%20Pangasinan!5e0!3m2!1sen!2sph!4v1775687530107!5m2!1sen!2sph"
+          allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+    </div>
+
+    <!-- Form -->
+    <div class="col-md-5">
+      <form class="shadow p-4 rounded bg-light h-100 d-flex flex-column justify-content-between">
+        <div>
+          <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="floatingName" placeholder="Full Name" required>
+            <label for="floatingName">First Name M.I. Last Name</label>
+          </div>
+          <div class="form-floating mb-3">
+            <input type="email" class="form-control" id="floatingEmail" placeholder="name@example.com" required>
+            <label for="floatingEmail">Email Address</label>
+          </div>
+          <div class="form-floating mb-4">
+            <textarea class="form-control" placeholder="Leave a message here" id="floatingMessage" style="height: 120px;" required></textarea>
+            <label for="floatingMessage">Message</label>
+          </div>
+        </div>
+
+        <div>
+          <div class="row justify-content-between align-items-center" id="social">
+            <div class="col-auto d-flex gap-3">
+              <a href="" target="_blank" rel="noopener noreferrer" class="text-decoration-none">
+                <img src="https://e7.pngegg.com/pngimages/491/988/png-clipart-facebook-logo-circle-facebook-icon-icons-logos-emojis-social-media-icons-thumbnail.png" alt="facebook" class="img-fluid" width="30">
+              </a>
+              <a href="" target="_blank" rel="noopener noreferrer" class="text-decoration-none">
+                <img src="https://t4.ftcdn.net/jpg/03/04/06/01/360_F_304060171_OUUSKIITlOLRgnDI1EFO8eSZqOHab6Iq.jpg" alt="youtube" class="img-fluid" width="30">
+              </a>
+              <a href="" target="_blank" rel="noopener noreferrer" class="text-decoration-none">
+                <img src="https://e7.pngegg.com/pngimages/191/478/png-clipart-social-media-facebook-emoji-icon-instagram-icon-instagram-logo-text-rectangle.png" alt="instagram" class="img-fluid" width="30">
+              </a>
+            </div>
+            <div class="col-auto">
+              <button type="button" class="btn btn-primary px-4" data-bs-toggle="modal" data-bs-target="#modalDiv">
+                Submit
+              </button>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="modalDiv" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title text-dark" id="modalLabel">Thank you!</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body text-dark">
+          We have received your message. Our team will get back to you shortly!
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer id="footer" class="bg-dark text-light d-flex flex-column gap-1 justify-content-center align-items-center py-2">
+            <div>Foreign Language Center</div>
+            <div>&copy;All rights reserved.</div>
+        </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

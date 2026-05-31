@@ -39,16 +39,15 @@ body{
 }
 
 .hero-text-card {
-    background: rgba(25, 25, 25, 0.65); /* Dark tint with opacity */
-    backdrop-filter: blur(12px);         /* Blurs everything directly underneath it */
-    -webkit-backdrop-filter: blur(12px); /* Safari support */
+    background: rgba(25, 25, 25, 0.65); 
+    backdrop-filter: blur(12px);         
+    -webkit-backdrop-filter: blur(12px); 
     padding: 2.5rem;
     border-radius: 16px;
-    border: 1px solid rgba(255, 255, 255, 0.08); /* Soft subtle perimeter glow */
+    border: 1px solid rgba(255, 255, 255, 0.08); 
     box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
 }
 
-/* Accent color for English header */
 .text-light-gold {
     color: #ffc107; 
 }
@@ -124,7 +123,7 @@ body{
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-/* Subtle interactive effect */
+
 .feature-card:hover {
   transform: translateY(-4px);
   box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.05);
@@ -149,7 +148,7 @@ body{
   color: #64748b;
 }
 
-/* Responsive adjustments for Tablets/Mobile */
+
 @media (max-width: 768px) {
   .main-title {
     font-size: 2rem;
